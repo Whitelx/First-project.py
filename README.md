@@ -61,3 +61,5 @@ py main.py
 - Save order history in `orders.json`
 - Add admin menu
 - Add product editing and deleting
+
+This was created with some help of ChatGPT, like the json file and correcting some errors.
