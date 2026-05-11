@@ -6,6 +6,10 @@ FILE_NAME = "products.json"
 with open(FILE_NAME, "r") as file:
     products = json.load(file)
 
+# ادخل اسمك
+user_name = input("Please enter your name: ")
+print(f"Welcome, {user_name}!")
+
 # عرض كل المنتجات
 print("Available Products:")
 print("-" * 30)
@@ -69,7 +73,11 @@ print("-" * 30)
 print(f"Total price: {total_price} SAR")
 
 # حفظ السلة في ملف JSON
-with open("cart.json", "w") as cart_file:
-    json.dump(cart, cart_file, indent=4)
+cart_data = {
+    "user": user_name,
+    "cart": cart,
+    "total_price": total_price
+}
 
-print("Cart saved to cart.json")
+with open("cart.json", "w") as cart_file:
+    json.dump(cart_data, cart_file, indent=4)
