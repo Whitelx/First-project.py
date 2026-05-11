@@ -11,7 +11,6 @@ for product in products:
     print(f"ID: {product['id']}")
     print(f"Name: {product['name']}")
     print(f"Price: {product['price']}")
-    print(f"Description: {product['description']}")
     print("-" * 20)
 
 # البحث عن منتج معين باستخدام ID
