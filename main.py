@@ -2,34 +2,53 @@ import json
 
 FILE_NAME = "products.json"
 
-# نفتح ملف JSON ونقرأ البيانات
+# قراءة المنتجات من ملف JSON
 with open(FILE_NAME, "r") as file:
     products = json.load(file)
 
-# نطبع كل منتج في القائمة
+# عرض كل المنتجات
+print("Available Products:")
+print("-" * 30)
+
 for product in products:
     print(f"ID: {product['id']}")
     print(f"Name: {product['name']}")
-    print(f"Price: {product['price']}")
-    print("-" * 20)
+    print(f"Stock: {product['stock']}")
+    print(f"Price: {product['price']} SAR")
+    print("-" * 30)
 
-# البحث عن منتج معين باستخدام ID
-search_id = input("Enter the product ID to search: ")
-for product in products:
-    if product['id'] == search_id:
-        print(f"Product found: {product['name']}, Price: {product['price']}")
-        break
-else:
-    print("Product not found.")
+# البحث عن منتج باستخدام ID
+search_input = input("Enter the product ID to search: ")
 
-#اضافه منتج الى السلة للشراء
-cart = []
-while True:
-    product_id = input("Enter the product ID to add to cart (or 'done' to finish): ")
-    if product_id.lower() == 'done':
-        break
+if search_input.isdigit():
+    search_id = int(search_input)
+
     for product in products:
-        if product['id'] == product_id:
+        if product["id"] == search_id:
+            print(f"Product found: {product['name']}, Price: {product['price']} SAR")
+            break
+    else:
+        print("Product not found.")
+else:
+    print("Invalid ID. Please enter a number.")
+
+# إضافة منتجات إلى السلة
+cart = []
+
+while True:
+    product_input = input("Enter the product ID to add to cart (or 'done' to finish): ")
+
+    if product_input.lower() == "done":
+        break
+
+    if not product_input.isdigit():
+        print("Invalid input. Please enter a product ID number.")
+        continue
+
+    product_id = int(product_input)
+
+    for product in products:
+        if product["id"] == product_id:
             cart.append(product)
             print(f"Added {product['name']} to cart.")
             break
@@ -38,18 +57,19 @@ while True:
 
 # عرض محتويات السلة
 print("\nItems in your cart:")
+print("-" * 30)
+
 for item in cart:
-    print(f"- {item['name']}: ${item['price']}")
+    print(f"- {item['name']}: {item['price']} SAR")
 
-# حساب إجمالي السعر
-total_price = sum(item['price'] for item in cart)
+# حساب السعر الإجمالي
+total_price = sum(item["price"] for item in cart)
 
-print(f"Total price: ${total_price}")
+print("-" * 30)
+print(f"Total price: {total_price} SAR")
 
 # حفظ السلة في ملف JSON
 with open("cart.json", "w") as cart_file:
     json.dump(cart, cart_file, indent=4)
 
 print("Cart saved to cart.json")
-
-# يمكنك الآن تشغيل هذا البرنامج وسيقوم بقراءة المنتجات من ملف JSON، والبحث عن المنتجات، وإضافة المنتجات إلى السلة، وعرض محتويات السلة، وحساب إجمالي السعر، وأخيرًا حفظ السلة في ملف JSON.
