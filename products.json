@@ -14,5 +14,109 @@
   "X Premium": {
     "stock": 3,
     "price": 200
+  },
+  "Spotify Premium": {
+    "stock": 12,
+    "price": 45
+  },
+  "Shahid VIP": {
+    "stock": 8,
+    "price": 60
+  },
+  "Canva Pro": {
+    "stock": 6,
+    "price": 35
+  },
+  "ChatGPT Plus": {
+    "stock": 4,
+    "price": 90
+  },
+  "Microsoft 365": {
+    "stock": 9,
+    "price": 70
+  },
+  "Google One 100GB": {
+    "stock": 15,
+    "price": 25
+  },
+  "Adobe Creative Cloud": {
+    "stock": 3,
+    "price": 180
+  },
+  "CapCut Pro": {
+    "stock": 10,
+    "price": 40
+  },
+  "Duolingo Plus": {
+    "stock": 6,
+    "price": 55
+  },
+  "Grammarly Premium": {
+    "stock": 7,
+    "price": 65
+  },
+  "Notion Plus": {
+    "stock": 8,
+    "price": 30
+  },
+  "iCloud 200GB": {
+    "stock": 11,
+    "price": 35
+  },
+  "PlayStation Plus": {
+    "stock": 5,
+    "price": 120
+  },
+  "Xbox Game Pass": {
+    "stock": 6,
+    "price": 85
+  },
+  "Steam Gift Card": {
+    "stock": 20,
+    "price": 50
+  },
+  "Roblox Gift Card": {
+    "stock": 18,
+    "price": 40
+  },
+  "Valorant Points": {
+    "stock": 14,
+    "price": 75
+  },
+  "Fortnite V-Bucks": {
+    "stock": 13,
+    "price": 70
+  },
+  "PUBG UC": {
+    "stock": 16,
+    "price": 60
+  },
+  "Minecraft Java Account": {
+    "stock": 4,
+    "price": 110
+  },
+  "Discord Server Boost": {
+    "stock": 10,
+    "price": 35
+  },
+  "Telegram Premium": {
+    "stock": 9,
+    "price": 45
+  },
+  "Crunchyroll Premium": {
+    "stock": 6,
+    "price": 50
+  },
+  "OSN Plus": {
+    "stock": 5,
+    "price": 55
+  },
+  "TOD Subscription": {
+    "stock": 4,
+    "price": 80
+  },
+  "Anghami Plus": {
+    "stock": 10,
+    "price": 30
   }
 }
