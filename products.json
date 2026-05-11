@@ -1,122 +1,602 @@
-{
-  "Netflix Sub": {
+[
+  {
+    "id": 1,
+    "name": "Netflix Sub",
     "stock": 10,
     "price": 50
   },
-  "Discord Nitro": {
+  {
+    "id": 2,
+    "name": "Discord Nitro",
     "stock": 5,
     "price": 100
   },
-  "Youtube Premium": {
+  {
+    "id": 3,
+    "name": "Youtube Premium",
     "stock": 7,
     "price": 80
   },
-  "X Premium": {
+  {
+    "id": 4,
+    "name": "X Premium",
     "stock": 3,
     "price": 200
   },
-  "Spotify Premium": {
+  {
+    "id": 5,
+    "name": "Spotify Premium",
     "stock": 12,
     "price": 45
   },
-  "Shahid VIP": {
+  {
+    "id": 6,
+    "name": "Shahid VIP",
     "stock": 8,
     "price": 60
   },
-  "Canva Pro": {
+  {
+    "id": 7,
+    "name": "Canva Pro",
     "stock": 6,
     "price": 35
   },
-  "ChatGPT Plus": {
+  {
+    "id": 8,
+    "name": "ChatGPT Plus",
     "stock": 4,
     "price": 90
   },
-  "Microsoft 365": {
+  {
+    "id": 9,
+    "name": "Microsoft 365",
     "stock": 9,
     "price": 70
   },
-  "Google One 100GB": {
+  {
+    "id": 10,
+    "name": "Google One 100GB",
     "stock": 15,
     "price": 25
   },
-  "Adobe Creative Cloud": {
+  {
+    "id": 11,
+    "name": "Adobe Creative Cloud",
     "stock": 3,
     "price": 180
   },
-  "CapCut Pro": {
+  {
+    "id": 12,
+    "name": "CapCut Pro",
     "stock": 10,
     "price": 40
   },
-  "Duolingo Plus": {
+  {
+    "id": 13,
+    "name": "Duolingo Plus",
     "stock": 6,
     "price": 55
   },
-  "Grammarly Premium": {
+  {
+    "id": 14,
+    "name": "Grammarly Premium",
     "stock": 7,
     "price": 65
   },
-  "Notion Plus": {
+  {
+    "id": 15,
+    "name": "Notion Plus",
     "stock": 8,
     "price": 30
   },
-  "iCloud 200GB": {
+  {
+    "id": 16,
+    "name": "iCloud 200GB",
     "stock": 11,
     "price": 35
   },
-  "PlayStation Plus": {
+  {
+    "id": 17,
+    "name": "PlayStation Plus",
     "stock": 5,
     "price": 120
   },
-  "Xbox Game Pass": {
+  {
+    "id": 18,
+    "name": "Xbox Game Pass",
     "stock": 6,
     "price": 85
   },
-  "Steam Gift Card": {
+  {
+    "id": 19,
+    "name": "Steam Gift Card",
     "stock": 20,
     "price": 50
   },
-  "Roblox Gift Card": {
+  {
+    "id": 20,
+    "name": "Roblox Gift Card",
     "stock": 18,
     "price": 40
   },
-  "Valorant Points": {
+  {
+    "id": 21,
+    "name": "Valorant Points",
     "stock": 14,
     "price": 75
   },
-  "Fortnite V-Bucks": {
+  {
+    "id": 22,
+    "name": "Fortnite V-Bucks",
     "stock": 13,
     "price": 70
   },
-  "PUBG UC": {
+  {
+    "id": 23,
+    "name": "PUBG UC",
     "stock": 16,
     "price": 60
   },
-  "Minecraft Java Account": {
+  {
+    "id": 24,
+    "name": "Minecraft Java Account",
     "stock": 4,
     "price": 110
   },
-  "Discord Server Boost": {
+  {
+    "id": 25,
+    "name": "Discord Server Boost",
     "stock": 10,
     "price": 35
   },
-  "Telegram Premium": {
+  {
+    "id": 26,
+    "name": "Telegram Premium",
     "stock": 9,
     "price": 45
   },
-  "Crunchyroll Premium": {
+  {
+    "id": 27,
+    "name": "Crunchyroll Premium",
     "stock": 6,
     "price": 50
   },
-  "OSN Plus": {
+  {
+    "id": 28,
+    "name": "OSN Plus",
     "stock": 5,
     "price": 55
   },
-  "TOD Subscription": {
+  {
+    "id": 29,
+    "name": "TOD Subscription",
     "stock": 4,
     "price": 80
   },
-  "Anghami Plus": {
+  {
+    "id": 30,
+    "name": "Anghami Plus",
     "stock": 10,
     "price": 30
-  }
+  },
+  {
+  "id": 31,
+  "name": "Amazon Gift Card",
+  "stock": 15,
+  "price": 100
+},
+{
+  "id": 32,
+  "name": "Apple Gift Card",
+  "stock": 12,
+  "price": 100
+},
+{
+  "id": 33,
+  "name": "Google Play Gift Card",
+  "stock": 20,
+  "price": 50
+},
+{
+  "id": 34,
+  "name": "iTunes Gift Card",
+  "stock": 14,
+  "price": 75
+},
+{
+  "id": 35,
+  "name": "PlayStation Store Gift Card",
+  "stock": 18,
+  "price": 100
+},
+{
+  "id": 36,
+  "name": "Xbox Store Gift Card",
+  "stock": 16,
+  "price": 100
+},
+{
+  "id": 37,
+  "name": "Nintendo eShop Gift Card",
+  "stock": 10,
+  "price": 90
+},
+{
+  "id": 38,
+  "name": "Steam Wallet 100 SAR",
+  "stock": 20,
+  "price": 100
+},
+{
+  "id": 39,
+  "name": "Steam Wallet 200 SAR",
+  "stock": 10,
+  "price": 200
+},
+{
+  "id": 40,
+  "name": "Roblox 800 Robux",
+  "stock": 25,
+  "price": 45
+},
+{
+  "id": 41,
+  "name": "Roblox 1700 Robux",
+  "stock": 18,
+  "price": 90
+},
+{
+  "id": 42,
+  "name": "Valorant 475 VP",
+  "stock": 22,
+  "price": 25
+},
+{
+  "id": 43,
+  "name": "Valorant 1000 VP",
+  "stock": 15,
+  "price": 55
+},
+{
+  "id": 44,
+  "name": "Valorant 2050 VP",
+  "stock": 10,
+  "price": 105
+},
+{
+  "id": 45,
+  "name": "Fortnite 1000 V-Bucks",
+  "stock": 17,
+  "price": 45
+},
+{
+  "id": 46,
+  "name": "Fortnite 2800 V-Bucks",
+  "stock": 9,
+  "price": 110
+},
+{
+  "id": 47,
+  "name": "PUBG 660 UC",
+  "stock": 20,
+  "price": 55
+},
+{
+  "id": 48,
+  "name": "PUBG 1800 UC",
+  "stock": 12,
+  "price": 135
+},
+{
+  "id": 49,
+  "name": "EA Play Subscription",
+  "stock": 8,
+  "price": 40
+},
+{
+  "id": 50,
+  "name": "Ubisoft Plus",
+  "stock": 6,
+  "price": 75
+},
+{
+  "id": 51,
+  "name": "Geforce Now Subscription",
+  "stock": 7,
+  "price": 65
+},
+{
+  "id": 52,
+  "name": "Epic Games Gift Card",
+  "stock": 10,
+  "price": 80
+},
+{
+  "id": 53,
+  "name": "Riot Games Gift Card",
+  "stock": 15,
+  "price": 75
+},
+{
+  "id": 54,
+  "name": "Battle.net Gift Card",
+  "stock": 9,
+  "price": 100
+},
+{
+  "id": 55,
+  "name": "Apex Coins",
+  "stock": 13,
+  "price": 60
+},
+{
+  "id": 56,
+  "name": "FC Points",
+  "stock": 11,
+  "price": 85
+},
+{
+  "id": 57,
+  "name": "Rocket League Credits",
+  "stock": 14,
+  "price": 70
+},
+{
+  "id": 58,
+  "name": "Free Fire Diamonds",
+  "stock": 19,
+  "price": 50
+},
+{
+  "id": 59,
+  "name": "Mobile Legends Diamonds",
+  "stock": 18,
+  "price": 45
+},
+{
+  "id": 60,
+  "name": "Genshin Impact Genesis Crystals",
+  "stock": 12,
+  "price": 90
+},
+{
+  "id": 61,
+  "name": "Honkai Star Rail Oneiric Shards",
+  "stock": 10,
+  "price": 85
+},
+{
+  "id": 62,
+  "name": "Clash of Clans Gold Pass",
+  "stock": 16,
+  "price": 35
+},
+{
+  "id": 63,
+  "name": "Brawl Stars Gems",
+  "stock": 15,
+  "price": 40
+},
+{
+  "id": 64,
+  "name": "Clash Royale Pass Royale",
+  "stock": 13,
+  "price": 35
+},
+{
+  "id": 65,
+  "name": "Twitch Gift Card",
+  "stock": 8,
+  "price": 60
+},
+{
+  "id": 66,
+  "name": "Twitch Turbo",
+  "stock": 6,
+  "price": 50
+},
+{
+  "id": 67,
+  "name": "Kick Subscription Credit",
+  "stock": 7,
+  "price": 45
+},
+{
+  "id": 68,
+  "name": "Reddit Premium",
+  "stock": 5,
+  "price": 40
+},
+{
+  "id": 69,
+  "name": "LinkedIn Premium",
+  "stock": 4,
+  "price": 120
+},
+{
+  "id": 70,
+  "name": "Coursera Plus",
+  "stock": 5,
+  "price": 150
+},
+{
+  "id": 71,
+  "name": "Skillshare Premium",
+  "stock": 6,
+  "price": 70
+},
+{
+  "id": 72,
+  "name": "Codecademy Pro",
+  "stock": 5,
+  "price": 95
+},
+{
+  "id": 73,
+  "name": "DataCamp Premium",
+  "stock": 4,
+  "price": 110
+},
+{
+  "id": 74,
+  "name": "Brilliant Premium",
+  "stock": 6,
+  "price": 90
+},
+{
+  "id": 75,
+  "name": "Quizlet Plus",
+  "stock": 9,
+  "price": 35
+},
+{
+  "id": 76,
+  "name": "Chegg Study",
+  "stock": 5,
+  "price": 80
+},
+{
+  "id": 77,
+  "name": "Udemy Course Coupon",
+  "stock": 20,
+  "price": 45
+},
+{
+  "id": 78,
+  "name": "edX Course Voucher",
+  "stock": 8,
+  "price": 120
+},
+{
+  "id": 79,
+  "name": "GitHub Copilot",
+  "stock": 10,
+  "price": 45
+},
+{
+  "id": 80,
+  "name": "Replit Core",
+  "stock": 7,
+  "price": 55
+},
+{
+  "id": 81,
+  "name": "JetBrains License",
+  "stock": 6,
+  "price": 100
+},
+{
+  "id": 82,
+  "name": "Figma Professional",
+  "stock": 8,
+  "price": 60
+},
+{
+  "id": 83,
+  "name": "Framer Pro",
+  "stock": 5,
+  "price": 85
+},
+{
+  "id": 84,
+  "name": "Webflow Site Plan",
+  "stock": 4,
+  "price": 95
+},
+{
+  "id": 85,
+  "name": "Wix Premium",
+  "stock": 6,
+  "price": 70
+},
+{
+  "id": 86,
+  "name": "Squarespace Plan",
+  "stock": 5,
+  "price": 80
+},
+{
+  "id": 87,
+  "name": "Namecheap Domain Credit",
+  "stock": 12,
+  "price": 50
+},
+{
+  "id": 88,
+  "name": "GoDaddy Domain Credit",
+  "stock": 10,
+  "price": 55
+},
+{
+  "id": 89,
+  "name": "Hostinger Hosting Plan",
+  "stock": 7,
+  "price": 90
+},
+{
+  "id": 90,
+  "name": "Cloudflare Pro",
+  "stock": 4,
+  "price": 100
+},
+{
+  "id": 91,
+  "name": "Dropbox Plus",
+  "stock": 8,
+  "price": 50
+},
+{
+  "id": 92,
+  "name": "OneDrive 1TB",
+  "stock": 10,
+  "price": 60
+},
+{
+  "id": 93,
+  "name": "Mega Pro",
+  "stock": 7,
+  "price": 45
+},
+{
+  "id": 94,
+  "name": "Proton Mail Plus",
+  "stock": 6,
+  "price": 40
+},
+{
+  "id": 95,
+  "name": "NordVPN Subscription",
+  "stock": 9,
+  "price": 65
+},
+{
+  "id": 96,
+  "name": "ExpressVPN Subscription",
+  "stock": 6,
+  "price": 80
+},
+{
+  "id": 97,
+  "name": "Surfshark VPN",
+  "stock": 10,
+  "price": 55
+},
+{
+  "id": 98,
+  "name": "Malwarebytes Premium",
+  "stock": 8,
+  "price": 60
+},
+{
+  "id": 99,
+  "name": "Bitdefender Antivirus",
+  "stock": 7,
+  "price": 70
+},
+{
+  "id": 100,
+  "name": "Kaspersky Standard",
+  "stock": 6,
+  "price": 65
 }
+]
