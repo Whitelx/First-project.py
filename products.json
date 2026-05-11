@@ -1,0 +1,18 @@
+{
+  "Netflix Sub": {
+    "stock": 10,
+    "price": 50
+  },
+  "Discord Nitro": {
+    "stock": 5,
+    "price": 100
+  },
+  "Youtube Premium": {
+    "stock": 7,
+    "price": 80
+  },
+  "X Premium": {
+    "stock": 3,
+    "price": 200
+  }
+}
