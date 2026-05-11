@@ -27,37 +27,37 @@ First-project.py/
 ├── products.json
 ├── cart.json
 └── README.md
+```
 
-----------------------------
+## How to Run
 
-How to Run
 1. Make sure Python is installed.
 2. Open the project folder.
 3. Run the program:
 
+```bash
 python main.py
+```
 
-or
+or:
 
+```bash
 py main.py
+```
 
-----------------------------
+## What I Learned
 
-What I Learned
+- Reading data from JSON files
+- Writing data to JSON files
+- Handling user input
+- Working with lists and dictionaries
+- Using Git and GitHub
+- Fixing common Python errors
 
--Reading data from JSON files
--Writing data to JSON files
--Handling user input
--Working with lists and dictionaries
--Using Git and GitHub
--Fixing common Python errors
+## Future Improvements
 
-----------------------------
-
-Future Improvements
-
--Update product stock after purchase
--Add quantity selection
--Save order history in orders.json
--Add admin menu
--Add product editing and deleting
+- Update product stock after purchase
+- Add quantity selection
+- Save order history in `orders.json`
+- Add admin menu
+- Add product editing and deleting
