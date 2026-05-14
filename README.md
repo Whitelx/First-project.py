@@ -62,4 +62,4 @@ py main.py
 - Add admin menu
 - Add product editing and deleting
 
-This was created with some help of ChatGPT, like the json file and correcting some errors.
+This project was built with using ChatGPT for json files and simple things (HE DID NOT WRITE ANY CODES)
